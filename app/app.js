@@ -3,6 +3,13 @@
 const app = require('express')();
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
+const router = express.Router();
+
+// Health Check
+router.get('/health', (req, res) => {
+  res.status(200).send('Ok');
+});
+
 
 app.use(bodyParser.json({
     limit: '8mb'
