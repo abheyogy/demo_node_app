@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: abheyogy/app:latest
+          tags: abheyogy/demo-node-app:latest
