@@ -1,0 +1,24 @@
+{
+  "name": "demo-node-app",
+  "version": "0.0.1",
+  "description": "A demo nodejs application for fun & more ...",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abheyogy/demo_node_app"
+  },
+  "keywords": [
+    "demo_node_app"
+  ],
+  "author": "Pranav Salunke <abheyogy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
